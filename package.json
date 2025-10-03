@@ -1,0 +1,27 @@
+{
+  "name": "formulario-contacto-web",
+  "version": "1.0.0",
+  "description": "Sistema de formulario de contacto con envío automático a Gmail - Versión Web",
+  "main": "servidor-web.js",
+  "scripts": {
+    "start": "node servidor-web.js",
+    "dev": "nodemon servidor-web.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7"
+  },
+  "keywords": [
+    "formulario",
+    "contacto",
+    "gmail",
+    "nodejs",
+    "express",
+    "web"
+  ],
+  "author": "MiniMax Agent",
+  "license": "MIT"
+}
